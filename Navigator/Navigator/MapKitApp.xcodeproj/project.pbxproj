@@ -13,6 +13,7 @@
 		3F5A66E22B172E2700DC962D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A66E12B172E2700DC962D /* Assets.xcassets */; };
 		3F5A66E52B172E2700DC962D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A66E32B172E2700DC962D /* LaunchScreen.storyboard */; };
 		3F5A66EF2B17373100DC962D /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A66EE2B17373100DC962D /* UIView+Pin.swift */; };
+		CA2E27702BA8750600EEFCBC /* CustomMapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E276F2BA8750600EEFCBC /* CustomMapPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3F5A66E42B172E2700DC962D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F5A66E62B172E2700DC962D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5A66EE2B17373100DC962D /* UIView+Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
+		CA2E276F2BA8750600EEFCBC /* CustomMapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		3F5A66CC2B172E2400DC962D = {
 			isa = PBXGroup;
 			children = (
+				CA2E276F2BA8750600EEFCBC /* CustomMapPoint.swift */,
 				3F5A66D72B172E2400DC962D /* MapKitApp */,
 				3F5A66D62B172E2400DC962D /* Products */,
 			);
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2E27702BA8750600EEFCBC /* CustomMapPoint.swift in Sources */,
 				3F5A66DD2B172E2400DC962D /* MapVC.swift in Sources */,
 				3F5A66D92B172E2400DC962D /* AppDelegate.swift in Sources */,
 				3F5A66EF2B17373100DC962D /* UIView+Pin.swift in Sources */,
@@ -304,7 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
